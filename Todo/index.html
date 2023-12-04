@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Top Section -->
+    <header>
+      <h1>Task list 2024</h1>
+      <!-- Because with the help to gather input form the user -->
+      <form id="new-task-form">
+        <input type="text" id="new-task-input" placeholder="Enter New Todo" />
+        <input type="submit" id="new-task-submit" value="Add-Task" />
+      </form>
+    </header>
+
+    <!-- Body Section -->
+    <main>
+      <section class="task-list">
+        <h2>Tasks</h2>
+        <div id="tasks">
+          <div class="task">
+            <div class="content">
+              <input
+                type="text"
+                class="text"
+                value="Hii wash your face"
+                readonly
+              />
+            </div>
+            <div class="actions">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="script.js" defer></script>
+</html>
